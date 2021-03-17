@@ -40,9 +40,32 @@ body {
   background: #40394a;
   position: absolute;
   top: 50%;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   transform-origin: 100%;
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0, 2.65, 0.33, 1);
+}
+
+.second-hand {
+  background: -webkit-linear-gradient(left, orange, black, black 20%, black);
+}
+.min-hand {
+  background: -webkit-linear-gradient(
+    left,
+    #ff7171,
+    #ff7171 10%,
+    black 20%,
+    black
+  );
+}
+
+.hour-hand {
+  background: -webkit-linear-gradient(
+    left,
+    #28527a,
+    #28527a 30%,
+    black 20%,
+    black
+  );
 }
