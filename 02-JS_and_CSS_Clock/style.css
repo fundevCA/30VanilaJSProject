@@ -62,7 +62,7 @@ body {
 
 .hour-hand {
   background: -webkit-linear-gradient(
-    left,
+    right,
     #28527a,
     #28527a 30%,
     black 20%,
