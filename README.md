@@ -7,7 +7,8 @@
 
 | Project Name | Skill Part |
 |:--|:--:|
-| Drum Kit| Audio tag, DOM, Animation
+| Drum Kit| Audio tag, DOM, Animation |
+| JS Clock| DOM, transition-timing, Exception handling |
 
 
 
@@ -26,3 +27,12 @@
 
 #### When user press keys, DOM selects the associated audio tag to play Drum sound.
 CSS animation will set the yellow border to indicate which key is pressed.
+
+
+02 - JS Clock
+
+<img width="896" alt="Screen Shot 2021-03-17 at 2 54 44 PM" src="https://user-images.githubusercontent.com/80735153/111522836-0a3f4d00-8731-11eb-96dc-83110aead003.png">
+
+#### Using Date() Object to retrieve current time and display clock with CSS
+Using transform-origin to set the rotation axis.
+Exception handling when finish rotating clock hand.
