@@ -8,6 +8,7 @@
 | :----------- | :----------------------------------------: |
 | Drum Kit     |         Audio tag, DOM, Animation          |
 | JS Clock     | DOM, transition-timing, Exception handling |
+| CSS Variable | CSS variable, Use nodeList function |
 
 ##### \* Inspired by [ WESBOS ](https://wesbos.com/courses)
 
@@ -29,3 +30,13 @@ CSS animation will set the yellow border to indicate which key is pressed.
 
 transform-origin to set the rotation axis.
 Exception handling when finish rotating clock hand.
+
+03 - CSS Variable
+
+<img width="1121" alt="Screen Shot 2021-03-18 at 11 05 54 PM" src="https://user-images.githubusercontent.com/80735153/111726268-f97cfd00-883e-11eb-87c8-20a754faf7b7.png">
+
+#### Using CSS Variable ( Not SASS ) to dynamically update html of the website
+#### User can change the level of spacing, blur and color
+
+Use --variable of css
+Use nodeList function (forEach) to add event listener when change or movemouse 
