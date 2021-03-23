@@ -42,7 +42,3 @@ Exception handling when finish rotating clock hand.
 Use --variable of css
 Use nodeList function (forEach) to add event listener when change or movemouse
 
-
-<img width="500" alt="Screen Shot 2021-03-23 at 4 21 27 PM" src="[https://user-images.githubusercontent.com/80735153/112213012-06f60680-8bf4-11eb-8c08-febacf17b2b2.png](https://user-images.githubusercontent.com/80735153/112213012-06f60680-8bf4-11eb-8c08-febacf17b2b2.png)">
-
-<img width="500" alt="Screen Shot 2021-03-23 at 4 22 16 PM" src="[https://user-images.githubusercontent.com/80735153/112213062-15dcb900-8bf4-11eb-924c-0763294fd5c8.png](https://user-images.githubusercontent.com/80735153/112213062-15dcb900-8bf4-11eb-924c-0763294fd5c8.png)">
