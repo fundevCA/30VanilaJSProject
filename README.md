@@ -56,3 +56,14 @@ Use nodeList function (forEach) to add event listener when change or movemouse
 
 Select html content in the page and filter
 Use array function and converts nodeList to Array by spread operator or Array object [...] Array.from()
+
+## 05 - Flex Panel Gallery
+
+<img width="1000" alt="Screen Shot 2021-03-25 at 11 50 20 AM" src="https://user-images.githubusercontent.com/80735153/112502289-56594580-8d60-11eb-849d-3e81f6195b30.png">
+
+#### Practice Flexbox to make a Gallery
+
+#### Use JS click and transition end event to toggle classList
+
+Use transition to adjust size of flexbox, font and translate
+User can click multiple flexbox containers to change the size and see the effect
