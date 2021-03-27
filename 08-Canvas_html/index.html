@@ -15,15 +15,24 @@
       ctx.strokeStyle = "#BADA55";
       ctx.lineJoin = "round";
       ctx.lineCap = "round";
-      // ctx.lineWidth = 100;
+      ctx.lineWidth = 20;
+
+      // hsl(h,s,l) intuitive, think about the rainbow
+      // Hue -> what we most often think as color, color wheel
+      // Saturation -> how pure the hue is
+      // Lightness(brightness) -> amount of black/white 0% = black
 
       let isDrawing = false;
       let lastX = 0;
       let lastY = 0;
+      let hue = 0;
+      let lineWidth = 10;
+      let lineUp = true;
 
       function draw(e) {
         if (!isDrawing) return;
-        console.log(e);
+        ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+        ctx.lineWidth = lineWidth;
         ctx.beginPath();
         // Start from
         ctx.moveTo(lastX, lastY);
@@ -31,6 +40,20 @@
         ctx.lineTo(e.offsetX, e.offsetY);
         ctx.stroke();
         [lastX, lastY] = [e.offsetX, e.offsetY];
+        hue++;
+        if (hue >= 360) hue = 0;
+        if (lineWidth >= 50) {
+          console.log(false);
+          lineUp = false;
+        } else if (lineWidth <= 5) {
+          console.log(true);
+          lineUp = true;
+        }
+        if (lineUp) {
+          lineWidth = lineWidth + 0.1;
+        } else {
+          lineWidth = lineWidth - 0.1;
+        }
       }
 
       canvas.addEventListener("mousedown", e => {
