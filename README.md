@@ -74,7 +74,9 @@ User can click multiple flexbox containers to change the size and see the effect
 </p>
 
 <p display="float">
-<img width="400" height="550" alt="Screen Shot 2021-03-28 at 4 34 11 PM" src="https://user-images.githubusercontent.com/80735153/112767227-7c424c80-8fe3-11eb-8992-a5fc21b85524.png">
+  <div display="flex" align-items="center">
+<img width="400" alt="Screen Shot 2021-03-28 at 4 34 11 PM" src="https://user-images.githubusercontent.com/80735153/112767227-7c424c80-8fe3-11eb-8992-a5fc21b85524.png">
 <img width="600" height="550" alt="Screen Shot 2021-03-28 at 4 33 57 PM" src="https://user-images.githubusercontent.com/80735153/112767223-78aec580-8fe3-11eb-890c-3b6a3c4bb7a0.png">
+    <div>
 </p>
 
