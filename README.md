@@ -78,3 +78,4 @@ User can click multiple flexbox containers to change the size and see the effect
 <img width="600" height="450" alt="Screen Shot 2021-03-28 at 4 33 57 PM" src="https://user-images.githubusercontent.com/80735153/112767223-78aec580-8fe3-11eb-890c-3b6a3c4bb7a0.png">
 </p>
 
+<img width="1000" alt="Screen Shot 2021-03-28 at 4 44 54 PM" src="https://user-images.githubusercontent.com/80735153/112767477-f8895f80-8fe4-11eb-8ba0-0110e20c3b1e.png">
