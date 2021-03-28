@@ -10,10 +10,17 @@
 | JS Clock     | DOM, transition-timing, Exception handling |
 | CSS Variable |    CSS variable, Use nodeList function     |
 | Array Cardio 1 | DOM, Array Function (map, filter, sort, reduce) | 
+| Flex Gallery|  DOM, Transition, Flex|
+| Type Ahead | DOM, RegExp, Fetch Json |
+| Array Cardio 2 | DOM, Array Function (some, every, splice, slice, find) |
+| FULL Canvas | HTML Canvas, DOM |
 
 ##### \* Inspired by [ WESBOS ](https://wesbos.com/courses)
 
+
+
 # Projects
+
 
 ## 01 - Drum Kit
 
@@ -22,6 +29,7 @@
 #### When user press keys, DOM selects the associated audio tag to play Drum sound.
 
 CSS animation will set the yellow border to indicate which key is pressed.
+
 
 ## 02 - JS Clock
 
@@ -32,16 +40,17 @@ CSS animation will set the yellow border to indicate which key is pressed.
 transform-origin to set the rotation axis.
 Exception handling when finish rotating clock hand.
 
+
 ## 03 - CSS Variable
 
 <img width="1000" alt="Screen Shot 2021-03-18 at 11 05 54 PM" src="https://user-images.githubusercontent.com/80735153/111726268-f97cfd00-883e-11eb-87c8-20a754faf7b7.png">
 
 #### Using CSS Variable ( Not SASS ) to dynamically update html of the website
-
 #### User can change the level of spacing, blur and color
 
 Use --variable of css
 Use nodeList function (forEach) to add event listener when change or movemouse
+
 
 ## 04 - Array Cardio
 
@@ -51,11 +60,12 @@ Use nodeList function (forEach) to add event listener when change or movemouse
 </p>
 
 #### Practice Array Function(map, filter, sort, reduce)
-
 #### Using Dom and array function
+
 
 Select html content in the page and filter
 Use array function and converts nodeList to Array by spread operator or Array object [...] Array.from()
+
 
 ## 05 - Flex Panel Gallery
 
@@ -68,14 +78,30 @@ Use array function and converts nodeList to Array by spread operator or Array ob
 Use transition to adjust size of flexbox, font and translate
 User can click multiple flexbox containers to change the size and see the effect
 
+
+## 06 - Type Ahead
+
 <p display="float">
 <img width="500" height="550" alt="Screen Shot 2021-03-26 at 12 07 43 PM" src="https://user-images.githubusercontent.com/80735153/112766774-52882600-8fe1-11eb-8bf7-e03d47bebd81.png">
 <img width="500" height="550" alt="Screen Shot 2021-03-26 at 12 07 35 PM" src="https://user-images.githubusercontent.com/80735153/112766765-48662780-8fe1-11eb-92ac-bf9e8c1682b0.png">
 </p>
+
+#### When user press keys, DOM finds matching expression to render on the page
+
+
+## 07 - Array Cardio 2
 
 <p display="float">
 <img width="400" height="450" alt="Screen Shot 2021-03-28 at 4 34 11 PM" src="https://user-images.githubusercontent.com/80735153/112767227-7c424c80-8fe3-11eb-8992-a5fc21b85524.png">
 <img width="600" height="450" alt="Screen Shot 2021-03-28 at 4 33 57 PM" src="https://user-images.githubusercontent.com/80735153/112767223-78aec580-8fe3-11eb-890c-3b6a3c4bb7a0.png">
 </p>
 
+#### Practice Useful Array functions ( some, every, splice, slice, find, findIndex )
+
+
+## 08 - FULL Canvas
+
 <img width="1000" alt="Screen Shot 2021-03-28 at 4 44 54 PM" src="https://user-images.githubusercontent.com/80735153/112767477-f8895f80-8fe4-11eb-8ba0-0110e20c3b1e.png">
+
+#### DOM sets the canvas's width and height with the size of screen
+#### Color(hue) and the width is changing as drawing by use of if statement
