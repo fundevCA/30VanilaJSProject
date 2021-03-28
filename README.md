@@ -67,3 +67,9 @@ Use array function and converts nodeList to Array by spread operator or Array ob
 
 Use transition to adjust size of flexbox, font and translate
 User can click multiple flexbox containers to change the size and see the effect
+
+<p display="float">
+<img width="615" height="550" alt="Screen Shot 2021-03-26 at 12 07 43 PM" src="https://user-images.githubusercontent.com/80735153/112766774-52882600-8fe1-11eb-8bf7-e03d47bebd81.png">
+<img width="578" height="550" alt="Screen Shot 2021-03-26 at 12 07 35 PM" src="https://user-images.githubusercontent.com/80735153/112766765-48662780-8fe1-11eb-92ac-bf9e8c1682b0.png">
+</p>
+
